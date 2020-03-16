@@ -10,7 +10,10 @@ public class Mymath {
             throw new ArithmeticException("Division by zero");
         return a/b;
     }
-    public int multiply(int a,int b){
+    public int intmultiply(int a,int b){
+        return a*b;
+    }
+    public double Doublemultiply(double a,double b){
         return a*b;
     }
 }
